@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+#section1 #section2 #section3 #section4 #section5{
+  width: 100vw;
+  height: 100vh;
+}
+.Homeimg {
+  width: 100vw;
+  height: 91vh;
+}
+.cardimg{
+  width: 200px;
+  height: 200px;
+}
+.galleryimg{
+  height: 300px;
+}
+.videoSection{
+  background-color: #87cae2;
+}
+footer p{
+  margin-bottom: 0;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 400px) {
+  .Homeimg {
+    width: 100vw;
+    height: 60vh;
+  }
+  .galleryimg{
+    height: 200px;
+  }
+  .logo{
+    width: 50%;
+  }
+}
